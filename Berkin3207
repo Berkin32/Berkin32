@@ -1,0 +1,86 @@
+#include <stdio.h>
+#include <conio.h>
+#include <iostream>
+#include <string>
+main()
+{
+/*printf("Merhaba Dunya\n");printf("Merhaba Dunya\n");printf("Merhaba Dunya\n");printf("Merhaba Dunya\n");
+printf("Merhaba Dunya\n");printf("Merhaba Dunya\n");printf("Merhaba Dunya\n");printf("Merhaba Dunya\n");*/
+/*int n=100;
+printf("Kac tane: ");
+scanf("%d",&n);
+for(int i=0;i<n;i++)
+{
+printf("Merhaba Dunya ");
+printf("%d\n",i+1);
+}*/
+
+/*int i=0;
+while(i<n)
+{
+	printf("Merhaba Dunya ");
+	printf("%d\n",i+1);
+	i++;
+}*/
+/*int i=0;
+while(true)//sonsuz döngü
+{
+	printf("Merhaba Dunya ");
+	printf("%d\n",i+1);
+	i++;
+	if(i==n)
+	break;// döngüyü kır/çık
+
+  }*/
+  /*int i=0;
+  do
+  {
+  		printf("Merhaba Dunya ");
+	printf("%d\n",i+1);
+	i++;
+}
+while(i<n);*/
+   /*int n;              //1 Tanımlama
+     int toplam=0;     //1 Tanımlama+1 Atama
+    printf("Kaca kadar toplansin: ");       //1 İşlem   
+    scanf("%d",&n);                         //1 İşlem
+    for(int i=0;i<=n;i++)                   //1 Tanımlama+1 Atama+1 Kontrol+1 Toplam
+    {
+    	//for(int j=0;j<n;j++)              //n Tanımlama+n Atama+n Kontrol+n Toplam
+    
+	    toplam=toplam+i;                    //(1 Atama+1 Toplama)*n
+ }*/
+ 
+ 
+ 
+	 
+
+    //printf("Sayilarin Toplami:%d",toplam);  //1 İşlem
+
+
+//+6+1+1+n+n+n+n=4n+8;
+//O(4n+8)=O(4n)=O(n)
+//5!=5*4*3*2*1*0!                          0!=1'dir.
+           /*int n=5;
+           int sonuc=1;*/
+           /*for(int i=5;i>0;i--)
+           {
+           	    printf("%d",i);
+}*/
+/*for(int i=1;i<=n;i++)
+printf("%d",i);*/
+/*for(int i=5;i>0;i--)
+{
+	sonuc=sonuc*i;
+}
+printf("5 Sayisinin faktoriyeli:%d",sonuc);*/
+ int n;
+           int sonuc=1;
+           printf("Faktoriyeli alinacak sayiyi giriniz:");
+           scanf("%d",&n);
+           for(int i=n;i>0;i--)
+{
+	sonuc=sonuc*i;
+}
+printf("%d Sayisinin faktoriyeli:%d",n,sonuc);
+}
